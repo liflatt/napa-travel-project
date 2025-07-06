@@ -20,6 +20,7 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  aspect-ratio: 1 /1;
 }
 
 .grid-2-columns {
@@ -33,6 +34,7 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
@@ -88,7 +90,6 @@ header {
     url("../images/napa-header.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   color: white;
   text-align: center;
   padding: 200px 0;
