@@ -20,6 +20,9 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+}
+
+.gallery {
   border-radius: 12px;
 }
 
